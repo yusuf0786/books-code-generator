@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code generator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="common_wrapper">
+
+        <form action="#">
+            <div class="form_group">
+                <label for="book_title">Book Name</label>
+                <div class="input">
+                    <input type="text" name="book_title" id="book_title">
+                </div>
+            </div>
+    
+            <div class="form_group">
+                <label for="file_name">File name in the <q>Books</q> folder</label>
+                <div class="input" style="position: relative;">
+                    <input type="text" name="file_name" id="file_name">
+                    <p>.pdf</p>
+                </div>
+            </div>
+    
+            <div class="form_group">
+                <label for="image_name">Image name in the <q>img</q> folder with <u>extention</u></label>
+                <div class="input">
+                    <input type="text" name="image_name" placeholder="e.g. myimage.png" id="image_name">
+                </div>
+            </div>
+    
+            <div class="form_group">
+                <textarea name="generated_code" id="mycode" rows="15"></textarea>
+            </div>
+    
+            <input type="submit" value="Copy Code">
+    
+        </form>
+
+    </div>
+
+</body>
+</html>
