@@ -20,7 +20,7 @@ function myfunction() {
       <h2>${book_name_value}</h2>
       <a data-download-btn href="Books/${file_name_value}.pdf" download><span class="fa fa-download"></span></a>
   </div>
-  <div class="thumbnail"><img src="img/${image_name_value}" alt="book_thumbnail"></div>
+  <div class="thumbnail"><img loading="lazy" src="img/${image_name_value}" alt="book_thumbnail"></div>
   <a class="read_btn" href="Books/${file_name_value}.pdf" target="_blank">Read</a>
 </div>`
 
